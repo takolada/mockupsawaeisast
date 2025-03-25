@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAWAE ISAST 2025</title>
+    <!-- Barlow Font from Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Barlow', sans-serif;
+            line-height: 1.6;
+        }
+        :root {
+            --primary: #0056b3; /* ITB Blue */
+            --secondary: #d4edff;
+            --dark: #212529;
+        }
+        body {
+            font-family: 'Barlow', sans-serif;
+            line-height: 1.6;
+        }
+        .body-header {
+            color: rgb(0, 0, 0);
+            padding: 80px 0;
+            text-align: center;
+            margin-bottom: 40px;
+            border-radius: 8px;
+        }
+        .section-title {
+            color: var(--primary);
+            border-bottom: 2px solid var(--primary);
+            padding-bottom: 10px;
+            margin: 50px 0 25px;
+            font-weight: 700;
+        }
+        .sub-section-title {
+            color: var(--primary);
+            margin: 30px 0 15px;
+            font-weight: 600;
+        }
+        .topic-list {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        .topic-list li {
+            padding: 8px 0;
+            padding-left: 25px;
+            position: relative;
+        }
+        .topic-list li:before {
+            content: "➤";
+            position: absolute;
+            left: 0;
+            color: var(--primary);
+        }
+        .btn-primary {
+            background-color: var(--primary);
+            border: none;
+            padding: 10px 20px;
+        }
+        .btn-primary:hover {
+            background-color: #004494;
+        }
+        table {
+            width: 100%;
+            margin: 20px 0;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border: 1px solid #dee2e6;
+        }
+        th {
+            background-color: var(--secondary);
+        }
+        .logo-img {
+            max-height: 120px;
+            margin: 20px auto;
+            display: block;
+        }
+        .nav-pills .nav-link.active {
+            background-color: var(--primary);
+        }
+        .card {
+            transition: transform 0.3s;
+            margin-bottom: 20px;
+            height: 100%;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        }
+        footer {
+            background-color: var(--dark);
+            color: white;
+            padding: 30px 0;
+            margin-top: 50px;
+        }
+        @media (max-width: 768px) {
+            .body-header {
+                padding: 60px 0;
+            }
+            .section-title {
+                margin: 30px 0 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#submission">Submission</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#dates">Important Dates</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#registration">Registration</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#committee">Committee</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container my-5">
+        <img src="https://ftmd.itb.ac.id/wp-content/uploads/sites/385/2025/03/header-2-1536x512.png">
+        <!-- Body Header -->
+        <section class="body-header">
+            <div class="container">
+                <h1 class="display-4 fw-bold">Call for Paper! SAWAE-ISAST 2025</h1>
+                <p class="lead">5-7 August 2025 | Bandung, Indonesia</p>
+            </div>
+        </section>
+
+        <!-- Introduction -->
+        <section id="about">
+            <div class="row align-items-center">
+                <div class="col-lg-8">
+                    <p class="lead">In 2025, the Southeast Asia Workshop on Aerospace Engineering (SAWAE) and the 11th International Seminar on Aerospace Science and Technology (ISAST) will be combined into a single prestigious event, bringing together researchers, academics, and industry experts in aerospace engineering and technology.</p>
+                    <p>This joint conference aims to enhance collaboration, foster interdisciplinary discussions, and provide a comprehensive platform for sharing the latest advancements in the field. By merging SAWAE's focus on regional aerospace research with ISAST's broader international scope, the event will offer an enriched experience with diverse perspectives, cutting-edge insights, and expanded networking opportunities.</p>
+                </div>
+            </div>
+
+            <!-- Quick Links -->
+            <div class="text-center my-5">
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <a href="#sawae" class="btn btn-outline-primary btn-lg">
+                            <img src="https://ftmd.itb.ac.id/wp-content/uploads/sites/385/2025/03/logo-1536x512.png" height="40" class="me-2"> SAWAE at Glance
+                        </a>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <a href="#isast" class="btn btn-outline-primary btn-lg">
+                            <img src="https://ftmd.itb.ac.id/wp-content/uploads/sites/385/2025/03/ISAST2025.png" height="40" class="me-2"> ISAST at Glance
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Paper Submission -->
+        <section id="submission">
+            <h2 class="section-title">Paper Submission and Topics Covered</h2>
+            <p>The committee cordially invites submission of unpublished research papers in the following areas. Papers in other related areas to aerospace field are also welcomed.</p>
+            
+            <ul class="topic-list">
+                <li>Aeronautics</li>
+                <li>Astronautics</li>
+                <li>Aviation</li>
+            </ul>
+
+            <h3 class="sub-section-title">Submission Guidelines</h3>
+            <p>Kindly use the designated paper template for your submission. You may format your paper according to your preferred publication type. For SAWAE 2025, there are two available publication options, each associated with different conference fees.</p>
+            
+            <div class="row my-4">
+                <div class="col-md-6 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Journal of Aeronautics, Astronautics & Aviation</h5>
+                            <p class="card-text">Scopus-indexed Journal</p>
+                            <a href="https://www.aerosmalaysia.my/sawae2024/assets/documents/JOAAA_TEMPLATE.docx" class="btn btn-primary mt-3">Download Paper Template</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">SPRINGER BRIN in Aerospace</h5>
+                            <p class="card-text">Conference Proceedings</p>
+                            <a href="https://drive.google.com/drive/folders/1RuiT-GKDDnanP-up2AeRNk86ryyNNxxa" class="btn btn-primary mt-3">Download Paper Template</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center my-4">
+                <a href="https://forms.gle/daNYGXnTC1vCpxHd7" class="btn btn-success btn-lg px-4 py-2">
+                    <i class="fas fa-paper-plane me-2"></i> Click here for paper submission
+                </a>
+            </div>
+        </section>
+
+        <!-- Important Dates -->
+        <section id="dates" class="my-5">
+            <h2 class="section-title">Important Dates</h2>
+            <div class="text-center">
+                <img src="https://ftmd.itb.ac.id/wp-content/uploads/sites/385/2025/03/dates-1-1-2048x1448.png" alt="Important Dates" class="img-fluid rounded">
+            </div>
+        </section>
+
+        <!-- Registration Fees -->
+        <section id="registration">
+            <h2 class="section-title">Registration Categories & Fees</h2>
+            <p><em>Note: Fees include admission of one person to the conference program, conference goodies bag, conference publication and conference meals.</em></p>
+            
+            <h3 class="sub-section-title">Participant with Publication in SPRINGER BRIN</h3>
+            <table class="table table-bordered">
+                <thead>
+                    <tr class="table-primary">
+                        <th>Category</th>
+                        <th>Early Bird</th>
+                        <th>Regular</th>
+                        <th>Late</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Students (Local)</td>
+                        <td>Rp700.000</td>
+                        <td>Rp900.000</td>
+                        <td>Rp1.350.000</td>
+                    </tr>
+                    <tr>
+                        <td>Non-Students (Local)</td>
+                        <td>Rp1.000.000</td>
+                        <td>Rp1.350.000</td>
+                        <td>Rp1.800.000</td>
+                    </tr>
+                    <tr>
+                        <td>Students (International)</td>
+                        <td>$58</td>
+                        <td>$75</td>
+                        <td>$110</td>
+                    </tr>
+                    <tr>
+                        <td>Non-Students (International)</td>
+                        <td>$90</td>
+                        <td>$135</td>
+                        <td>$158</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3 class="sub-section-title">Participant with Publication in Journal of Aeronautics, Astronautics, and Aviation</h3>
+            <table class="table table-bordered">
+                <thead>
+                    <tr class="table-primary">
+                        <th>Category</th>
+                        <th>Early Bird</th>
+                        <th>Regular</th>
+                        <th>Late</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Students (Local)</td>
+                        <td>Rp700.000</td>
+                        <td>Rp1.000.000</td>
+                        <td>Rp1.500.000</td>
+                    </tr>
+                    <tr>
+                        <td>Non-Students (Local)</td>
+                        <td>Rp1.200.000</td>
+                        <td>Rp1.500.000</td>
+                        <td>Rp2.000.000</td>
+                    </tr>
+                    <tr>
+                        <td>Students (International)</td>
+                        <td>$65</td>
+                        <td>$80</td>
+                        <td>$120</td>
+                    </tr>
+                    <tr>
+                        <td>Non-Students (International)</td>
+                        <td>$100</td>
+                        <td>$150</td>
+                        <td>$175</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3 class="sub-section-title">Listeners</h3>
+            <ul>
+                <li>Local: Rp. 500.000</li>
+                <li>International: 50 USD</li>
+            </ul>
+        </section>
+
+        <!-- SAWAE at Glance -->
+        <section id="sawae" class="my-5">
+            <h2 class="section-title">SAWAE at Glance</h2>
+            <p>The Southeast Asia Workshop on Aerospace Engineering (SAWAE) is an annual international workshop organized by the Southeast Asia Network on Aerospace Engineering (SANAE). This event aims to explore the latest research and advancements in aerospace engineering and aviation, facilitate knowledge sharing and discussions among participants, and foster opportunities for future research collaborations and academic partnerships.</p>
+            <p>We are delighted to invite professors, researchers, scientists, and students to the 9th Southeast Asia Workshop on Aerospace Engineering (SAWAE), which will take place in Bandung, Indonesia, from 5th to 7th August 2025. This edition of SAWAE will feature a diverse range of keynote speeches and oral presentation sessions, covering various topics related to aerospace engineering and aviation.</p>
+        </section>
+
+        <!-- ISAST at Glance -->
+        <section id="isast" class="my-5">
+            <h2 class="section-title">ISAST at Glance</h2>
+            <p>The 11th International Seminar on Aerospace Science and Technology (ISAST) 2025 is an international forum dedicated to advancing research, innovation, and collaboration in the field of aerospace science and technology. Bringing together experts, researchers, academics, and industry professionals from around the world, ISAST serves as a platform to exchange knowledge, discuss cutting-edge developments, and explore emerging trends shaping the future of aerospace engineering.</p>
+            <p>Scheduled to take place in Bandung Indonesia on 5-7 of August 2025, ISAST 2025 will feature keynote speeches from leading aerospace experts, technical paper presentations, and panel discussions covering a wide spectrum of topics, including aerodynamics, propulsion, avionics, space exploration, unmanned aerial systems, and sustainable aviation technologies. This seminar aims to foster interdisciplinary collaboration, strengthen industry-academia partnerships, and provide an avenue for researchers to showcase their latest findings.</p>
+        </section>
+
+        <!-- Committee -->
+        <section id="committee" class="my-5">
+            <h2 class="section-title">Organized and Supported by</h2>
+            <h3 class="sub-section-title">The Committee</h3>
+            <div class="table-responsive">
+                <table class="table table-bordered">
+                    <thead>
+                        <tr class="table-primary">
+                            <th>Role</th>
+                            <th>Name</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Conference Chair/Co-Chairs</td>
+                            <td>Dr. -Ing. Ir. Javensius Sembiring S.T, M.T.<br>Dr. Matza Gusto Andika S.T., M.T.</td>
+                        </tr>
+                        <tr>
+                            <td>Program Committee</td>
+                            <td>Pramudita Satria Palar S.T, M.T, Ph.D.<br>Cahya Edi Santosa, M.T., Ph.D.</td>
+                        </tr>
+                        <tr>
+                            <td>Organizing Committee</td>
+                            <td>Yohanes Bimo Dwianto S.T, M.T, Ph.D.<br>Dr. Johan Muhamad, M.Sc.</td>
+                        </tr>
+                        <tr>
+                            <td>Sponsorship Committee</td>
+                            <td>Muhamad Luthfi Imam Nurhakim S.T, M.T.<br>Dr. Arif Nur Hakim, M.Eng.</td>
+                        </tr>
+                        <tr>
+                            <td>Publication Committee</td>
+                            <td>Dr. Ir. Yazdi Ibrahim Jenie S.T, M.T.<br>Mario Batubara, M.Si., Ph.D<br>Ery Fitrianingsih, S.T., M.Sc., Ph.D.</td>
+                        </tr>
+                        <tr>
+                            <td>Publicity and Marketing Committee</td>
+                            <td>Dr. Afdhal S.T, M.T.<br>Muhammad Ilham Adhynugraha, ST., M.T., Ph.D.</td>
+                        </tr>
+                        <tr>
+                            <td>Registration Committee</td>
+                            <td>Dr. I Made Wiragunarsa, ST., MT.</td>
+                        </tr>
+                        <tr>
+                            <td>Finance/Treasury Committee</td>
+                            <td>TBD, TBD</td>
+                        </tr>
+                        <tr>
+                            <td>Technical Support Team</td>
+                            <td>EO</td>
+                        </tr>
+                        <tr>
+                            <td>Local Arrangements Committee</td>
+                            <td>EO</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <h3 class="sub-section-title">International Advisory Board</h3>
+            <div class="row">
+                <div class="col-md-6">
+                    <ul>
+                        <li>Professor Ir. Dr. Abd. Rahim Abu Talib (Malaysia)</li>
+                        <li>Professor Ir. Dr. Shuhaimi Mansor (Malaysia)</li>
+                        <li>Professor Dr. Chih Yung Wu (Taiwan)</li>
+                        <li>Professor Dr. Chin-Hsiang Cheng (Taiwan)</li>
+                        <li>Professor Dr. Jiun-Jih Miau (Taiwan)</li>
+                        <li>Professor Dr. Lavi Rizki Zuhal (Indonesia)</li>
+                        <li>Professor Dr. Shau-Shiun Jan (Taiwan)</li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <ul>
+                        <li>Professor Dr. Thanigaiarasu Subramanian (India)</li>
+                        <li>Professor Dr. Wen-Lih Chen (Taiwan)</li>
+                        <li>Assoc. Prof. Dr. Azmin Shakrine Mohd Rafie (Malaysia)</li>
+                        <li>Assoc. Prof. Dr. Fairuz Izzuddin Romli (Malaysia)</li>
+                        <li>Assoc. Prof. Dr. Khanh Hieu Ngo (Vietnam)</li>
+                        <li>Assoc. Prof. Dr. Rizal Effendy Mohd Nasir (Malaysia)</li>
+                        <li>Assoc. Prof. Dr. Syaril Azrad Md Ali (Malaysia)</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="text-center my-4">
+                <img src="https://ftmd.itb.ac.id/wp-content/uploads/sites/385/2025/03/Untitled-design-6-1536x864.png" alt="Supporting Organizations" class="img-fluid">
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact" class="my-5">
+            <h2 class="section-title">Contact Us</h2>
+            <p>For any inquiries about SAWAE 2025, feel free to reach out to our conference secretariat:</p>
+            <ul class="list-unstyled">
+                <li><i class="fas fa-envelope me-2"></i> Email: <a href="mailto:sawae2025@itb.ac.id">sawae2025@itb.ac.id</a></li>
+                <li><i class="fab fa-twitter me-2"></i> Twitter: <a href="https://twitter.com/SawaeIsast2025" target="_blank">@SawaeIsast2025</a></li>
+                <li><i class="fab fa-instagram me-2"></i> Instagram: <a href="https://instagram.com/sawaeisast2025" target="_blank">@sawaeisast2025</a></li>
+            </ul>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container text-center">
+            <p class="mb-2">Southeast Asia Workshop on Aerospace Engineering & International Seminar on Aerospace Science and Technology</p>
+            <p class="mb-0">&copy; 2025 SAWAE-ISAST | Faculty of Mechanical and Aerospace Engineering, Institut Teknologi Bandung</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
